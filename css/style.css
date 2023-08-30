@@ -1,0 +1,111 @@
+*{
+    font-family: 'Roboto Slab', serif;
+
+    /* background-color: rgba(214, 46, 51 , 0.6); */
+}
+:root{
+    --main-color: rgba(214, 46, 51 , 0.6);
+    --main-alpha-color: rgba(214, 46, 51 , 0.4);
+}
+a{
+    display: inline-block;
+}
+.section-1{
+    height: 90vh;
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    
+}
+.overlay{
+    background-color: var(--main-color);
+    z-index: -1;
+}
+.content p:first-child{
+    font-size: 60px;
+}
+.asideNavBar{
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding: 10px;
+    left: 0;
+}
+.fa-xmark{
+    color: #fff;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.nav-links{
+    font-size: 25px;
+    color: #fff;
+    transition: 0.4s all ease-in-out;
+}
+.nav-links:hover,
+.fa-xmark:hover
+{
+    color: var(--main-color)
+}
+.right{
+    right: -140px;
+    top: 50%;
+    cursor: pointer;
+}
+.right span{
+    font-size: 40px;
+}
+.singer{
+    width: 70%;
+    text-align: center;
+    background-color: #c9c9c9;
+}
+.section-2 .singer h2{
+    background-color: var(--main-alpha-color);
+    margin-bottom: 0;
+}
+.text{
+    display: none;
+}
+.text p{
+    padding: 10px;
+    margin-bottom: 0;
+}
+.section-3{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+.section-3 .col-md-3 div{
+    border: 3px solid #fff;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+.socials span{
+    padding: 13px;
+    border: 1px solid;
+    margin-inline: 5px;
+    transition: 0.4s all ease-in-out;
+}
+.socials span:hover{
+    color: #fff;
+    border:none;
+    background-color: #dc3545;
+}
+textarea{
+    resize: none;
+}
